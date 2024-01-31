@@ -18,7 +18,10 @@ class AnswerButton extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 254, 121, 165),
         foregroundColor: Colors.white,
       ),
-      child: Text(answerText),
+      child: Text(
+        answerText,
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
